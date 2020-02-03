@@ -30,6 +30,7 @@ Here I explain about each project a bit. For more information you can see the RE
     
  
 - <b>Image Morphing</b>
+
     In this project we have two pictures and we want to make a movie to change the first picture to the second in a good way. In order to do that we first get some corresponding points in the images (e.g. if the images are the faces of two men, the tip of the nose, middle of both eyes, the corner of the lips, etc...). Then we perform a Delaunay algorithm to get the triangle mesh of the points. Then we move the points in the first image to their corresponding points in the second image slowly and for every image we want to make we warp the image in a way that the triangles in the triangle mesh created by Delaunay overlap and we get weighted average of two warped images. Two samples and codes are available in the folder.  
     
 
