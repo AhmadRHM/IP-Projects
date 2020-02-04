@@ -8,7 +8,7 @@ Here I explain about each project a bit. For more information you can see the RE
 
 - <b>Active Contour Segmentation</b>
 
-    It is a segmentation algorithm for images in wich you have a list of points on the image forming a contour and you define an energy function for that contour (for the list of points) and the goal is to move the points to fit to a desired object in the image and for that we want to minimize the energy function of the contour. Both greedy and dynamic programming methods are implemented.
+    It is a segmentation algorithm for images in which you have a list of points on the image forming a contour and you define an energy function for that contour (for the list of points) and the goal is to move the points to fit to a desired object in the image and for that we want to minimize the energy function of the contour. Both greedy and dynamic programming methods are implemented.
 
 
 - <b>Book Cover Separation</b>
@@ -26,7 +26,7 @@ Here I explain about each project a bit. For more information you can see the RE
 
 - <b>Cartoon Images</b>
     
-    It is in fact a simple way of image segmentation in wich we run a SLIC algorithm to oversegment the image and then for each superpixel we define it's corresponding point as the average of intensity of the pixels in that superpixel at each channel. So for each superpixel we have a point in R<sup>3</sup> and then we perform a Mean-Shift algorithm to cluster these points. At the end the corresponding superpixels of each cluster form a segment of our image and we assign the values of the cluster center of that cluster as the intencities of the pixels in that segment. What we get is a sort of cartoon image and therefore I have called this project Cartoon Images.
+    It is in fact a simple way of image segmentation in which we run a SLIC algorithm to oversegment the image and then for each superpixel we define it's corresponding point as the average of intensity of the pixels in that superpixel at each channel. So for each superpixel we have a point in R<sup>3</sup> and then we perform a Mean-Shift algorithm to cluster these points. At the end the corresponding superpixels of each cluster form a segment of our image and we assign the values of the cluster center of that cluster as the intencities of the pixels in that segment. What we get is a sort of cartoon image and therefore I have called this project Cartoon Images.
     
  
 - <b>Image Morphing</b>
